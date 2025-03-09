@@ -16,5 +16,5 @@ plugins:
   - jekyll-seo-tag
 
 content_selector: div.post-content,div.home
-ghbase: schh-commons/website-template/main
-url: /website-template
+# ghbase: schh-commons/website-template/main
+# url: /website-template
