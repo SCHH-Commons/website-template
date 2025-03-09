@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Example post using external image and Markdown formatting
-description: An example post using an external image hosted on Wikimedia Commons.
+title: Post using external image and Markdown text formatting
+description: Example post using an external image hosted on Wikimedia Commons and text formatting using Markdown.
 date: 2025-03-06
 author: John Doe
 tags: image markdown wikimedia

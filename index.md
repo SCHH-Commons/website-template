@@ -7,4 +7,8 @@ layout: home
 list_title: 
 ---
 
-Home page text goes here.
+## Welcome to Your Jekyll-based Website Template!
+
+This is a Jekyll template is designed to help you quickly launch a Jekyll-powered blog hosted with GitHub Pages. Whether you’re new to Jekyll or looking for just a solid starting point, this template provides a simple and flexible foundation. It includes sample posts, built-in tagging for easy content filtering, and a simple layout that you can customize to fit your needs.
+
+Jekyll makes it easy to write and organize content using Markdown, while GitHub Pages provides free and reliable hosting. With this template, you can focus on creating great content without worrying about complex setup. Simply clone, customize, and start blogging today!

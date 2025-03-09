@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Example post with local image and Markdown formatting
-description: An example post using a local image.
+title: Post using local image and Markdown text formatting
+description: Example post using a local image and text formatting using Markdown.
 date: 2025-03-07
 author: John Doe
 tags: image markdown

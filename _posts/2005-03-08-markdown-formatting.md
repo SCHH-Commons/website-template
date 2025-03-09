@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Post with Markdown formatting
-description: Example post With Markdown formatting.
+description: Example post With Markdown text formatting.
 date: 2025-03-08
 author: John Doe
 tags: markdown
