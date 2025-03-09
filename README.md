@@ -22,7 +22,6 @@ You now have your own copy of this template to customize!
    - `description`: A brief description of your site (appears in the footer)
    - `author`: Your name or organization
    - `email`: Your contact email
-   - `url`: Must match your repository name with a leading `/` (e.g., `/my-blog`)
 4. When finished, scroll down and click `"Commit changes..."`
 5. Add a simple message like "Update site settings" and click `"Commit changes"`
 
