@@ -16,5 +16,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-url: /
+url: /website-template
 content_selector: div.post-content,div.home
