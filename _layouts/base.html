@@ -105,6 +105,17 @@
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
       ifcScript.type = 'module'
       document.body.appendChild(ifcScript)
+
+      let ghbase = '{{ site.ghbase }}'
+      if (window.jekyll?.site?.github?.owner_name) {
+        let owner = window.jekyll.site.github.owner_name
+        let repo = window.jekyll.site.github.repository_name
+        let branch = window.jekyll.site.github.source.branch
+        let dir = window.jekyll.site.baseurl
+        ghbase = `${owner}/${repo}/${branch}`
+      }
+      console.log(`ghbase: ${ghbase}`)
+
     </script>
   </body>
 
