@@ -108,9 +108,7 @@
         let branch = window.jekyll.site.github.source.branch
         let dir = window.jekyll.site.baseurl
         window.ghbase = `${owner}/${repo}/${branch}/${dir}`
-      }
-      console.log(`ghbase: ${window.ghbase}`)      
-      
+      }      
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
       ifcScript.type = 'module'

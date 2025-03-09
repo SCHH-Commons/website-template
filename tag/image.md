@@ -1,10 +1,10 @@
 ---
 layout: tagpage
-title: Foo
-tag: foo
+title: Image
+tag: image
 robots: noindex
 ---
 
-An example tag.
+Posts with images.
 
 ---
