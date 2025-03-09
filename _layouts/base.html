@@ -99,22 +99,22 @@
     </footer>
     
     <script>
-      let ghbase = '{{ site.ghbase }}'
-      if (window.jekyll?.site?.github?.owner_name) {
-        let owner = window.jekyll.site.github.owner_name
-        let repo = window.jekyll.site.github.repository_name
-        let branch = window.jekyll.site.github.source.branch
-        let dir = window.jekyll.site.baseurl
-        ghbase = `${owner}/${repo}/${branch}`
-      }
-      console.log(`ghbase: ${ghbase}`)
-
       window.jekyll = {site:{baseurl:'{{site.baseurl}}',github:{owner_name:'{{site.github.owner_name}}',repository_name:'{{site.github.repository_name}}',source:{branch:'{{site.github.source.branch}}'}}},page:{path:'{{page.path}}',dir:'{{page.dir}}',name:'{{page.name}}'}}
       window.contentSelector = '{{ site.content_selector }}'
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
       ifcScript.type = 'module'
       document.body.appendChild(ifcScript)
+
+      window.ghbase = '{{ site.ghbase }}'
+      if (window.jekyll?.site?.github?.owner_name) {
+        let owner = window.jekyll.site.github.owner_name
+        let repo = window.jekyll.site.github.repository_name
+        let branch = window.jekyll.site.github.source.branch
+        let dir = window.jekyll.site.baseurl
+        window.ghbase = `${owner}/${repo}/${branch}`
+      }
+      console.log(`ghbase: ${window.ghbase}`)
 
     </script>
   </body>
