@@ -16,15 +16,12 @@ layout: base
   {%- if num_tags > 0 -%}
     <hr style="margin:0;"/>
     <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px;">
-      <span style="font-weight:500;">Tags:</span>
-      <ul class="tag-list" style="margin-bottom:0; display:flex; ">
+      <span style="font-weight:500;">Tags:&nbsp;</span>
       {% assign sortedtags = tags | split:' ' | sort %}
       {% for tag in sortedtags %}
-        <li>
-          <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
-        </li>
+        <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>
+        {% if forloop.last != true %},&nbsp;{% endif %}
       {% endfor %}
-      </ul>
     </div>
     <hr style="margin:0;"/><br/>
   {%- endif -%}
