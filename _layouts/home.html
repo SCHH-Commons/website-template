@@ -19,8 +19,8 @@ layout: base
       <span style="font-weight:500;">Tags:&nbsp;</span>
       {% assign sortedtags = tags | split:' ' | sort %}
       {% for tag in sortedtags %}
-        <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>
-        {% if forloop.last != true %},&nbsp;{% endif %}
+        <!-- <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},&nbsp;{% endif %} -->
+        <a href="tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},&nbsp;{% endif %}
       {% endfor %}
     </div>
     <hr style="margin:0;"/><br/>
@@ -64,7 +64,8 @@ layout: base
           {% assign sortedtags = post_tags | split:' ' | sort %}
           <br/><span class="post-meta">Tags:</span>
           {% for tag in post.tags %}
-            <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
+            <!-- <a href="{{ site.url }}/tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %} -->
+            <a href="tag/{{ tag }}">{{ tag }}</a>{% if forloop.last != true %},{% endif %}
           {% endfor %}
         {%- endif -%}
 
