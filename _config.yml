@@ -7,7 +7,9 @@ author:
 
 nav_pages:
   - about.md
+
 show_excerpts: true
+show_rss_feed: true
 
 plugins:
   - jekyll-feed

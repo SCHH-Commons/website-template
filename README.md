@@ -48,3 +48,9 @@ To add a new post:
 
 ### Need Help?
 Check out the [Jekyll Documentation](https://jekyllrb.com/docs/) for more details on customizing your site.
+
+## Local Development
+
+### Running local server
+
+> jekyll serve --disable-disk-cache -d /tmp

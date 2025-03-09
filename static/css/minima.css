@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .highlight .c {
   color: #998;
   font-style: italic;
@@ -237,7 +238,6 @@ ul, ol, dl, figure,
 hr {
   margin-top: 30px;
   margin-bottom: 30px;
-  clear: both;
 }
 
 /**
