@@ -30,8 +30,10 @@ Follow these steps to embed an image from **Google Photos** into your webpage or
 ```markdown
 ![](https://lh3.googleusercontent.com/pw/AP1GczMa4R3nSACuFjsFVUSCfUvjZ6nV5X-7h_ezcbNZxHEMHPVkkt8QdI9XKjAuejKPpxQ52BCQmmqLTRKZe2Ar71U8I0KrNnJK7jtc3q9b9bFgZUA-Xbf21xRzmp2a6U67wEDTOdfuz-DANFa4fBafb9yt6A=w1580-h1185-s-no-gm?authuser=0)
 ```
+Markdown
+`.caption`
 
 ![](https://lh3.googleusercontent.com/pw/AP1GczMa4R3nSACuFjsFVUSCfUvjZ6nV5X-7h_ezcbNZxHEMHPVkkt8QdI9XKjAuejKPpxQ52BCQmmqLTRKZe2Ar71U8I0KrNnJK7jtc3q9b9bFgZUA-Xbf21xRzmp2a6U67wEDTOdfuz-DANFa4fBafb9yt6A=w1580-h1185-s-no-gm?authuser=0)
 
-Google Photo
+Rendered Google Photo
 `.caption`
