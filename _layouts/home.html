@@ -15,7 +15,7 @@ layout: base
   {% assign num_tags = tags | number_of_words %}    
   {%- if num_tags > 0 -%}
     <hr style="margin:0;"/>
-    <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px;">
+    <div class="site-tags" style="display: flex; background-color: #f8f8f8; padding: 6px; border-radius: 5px; flex-wrap: wrap;">
       <span style="font-weight:500;">Tags:&nbsp;</span>
       {% assign sortedtags = tags | split:' ' | sort %}
       {% for tag in sortedtags %}
