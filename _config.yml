@@ -9,6 +9,7 @@ nav_pages:
   - about.md
   - contact.md
 
+max-width: 800px
 show_excerpts: true
 show_rss_feed: true
 

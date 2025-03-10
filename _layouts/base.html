@@ -101,6 +101,7 @@
     
     </footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
     <script>
       window.contentSelector = '{{ site.content_selector }}'
       window.jekyll = {site:{baseurl:'{{site.baseurl}}',github:{owner_name:'{{site.github.owner_name}}',repository_name:'{{site.github.repository_name}}',source:{branch:'{{site.github.source.branch}}'}}},page:{path:'{{page.path}}',dir:'{{page.dir}}',name:'{{page.name}}'}}
@@ -116,6 +117,11 @@
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
       ifcScript.type = 'module'
       document.body.appendChild(ifcScript)
+
+      maxWidth = maxWidth || '{{ site.max-width }}'
+      if (maxWidth) {
+        document.querySelector('main.page-content .wrapper').style.maxWidth = maxWidth === 'full' ? 'unset' : maxWidth
+      }
 
     </script>
   </body>
