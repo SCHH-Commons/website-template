@@ -21,8 +21,8 @@ The components library can be found at **[ifc.juncture-digital.org](https://ifc.
 
 Refer to the sample posts listed below for an example of how these IFrame Components are used in a post.
 
-- [2005-03-07-markdown-local-image]({{ site.url }}/2025/03/07/markdown-local-image)
-- [2005-03-06-markdown-wc-image]({{ site.url }}/2025/03/06/markdown-wc-image)
+- [2005-03-07-markdown-local-image]({{ site.baseurl }}/2025/03/07/markdown-local-image)
+- [2005-03-06-markdown-wc-image](2025/03/06/markdown-wc-image)
 
 ## GitHub Pages Integration  
 This template is optimized for **GitHub Pages**, which provides free hosting for static sites. By pushing your repository to GitHub, your site can be automatically deployed with no extra configuration needed.  
