@@ -9,11 +9,7 @@ omit_header: false
 width: full
 ---
 
-Here’s a **revised version** of your instructions with improved **readability, clarity, and accuracy**:
-
----
-
-### **How to Embed a Single Google Photo in Your Page**  
+### How to Embed a Single Google Photo in a Post
 
 Follow these steps to embed an image from **Google Photos** into your webpage or Markdown file:  
 
@@ -30,6 +26,10 @@ Follow these steps to embed an image from **Google Photos** into your webpage or
 **Note:** The image may take some time to appear consistently as it propagates across Google's network. If it doesn’t display immediately, check back later. 
 
 ### Example image
+
+```markdown
+![](https://lh3.googleusercontent.com/pw/AP1GczMa4R3nSACuFjsFVUSCfUvjZ6nV5X-7h_ezcbNZxHEMHPVkkt8QdI9XKjAuejKPpxQ52BCQmmqLTRKZe2Ar71U8I0KrNnJK7jtc3q9b9bFgZUA-Xbf21xRzmp2a6U67wEDTOdfuz-DANFa4fBafb9yt6A=w1580-h1185-s-no-gm?authuser=0)
+```
 
 ![](https://lh3.googleusercontent.com/pw/AP1GczMa4R3nSACuFjsFVUSCfUvjZ6nV5X-7h_ezcbNZxHEMHPVkkt8QdI9XKjAuejKPpxQ52BCQmmqLTRKZe2Ar71U8I0KrNnJK7jtc3q9b9bFgZUA-Xbf21xRzmp2a6U67wEDTOdfuz-DANFa4fBafb9yt6A=w1580-h1185-s-no-gm?authuser=0)
 

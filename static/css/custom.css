@@ -34,3 +34,5 @@ iframe[src*="youtube"] {
 img[src*=".svg"] {
   height: 1em;
 }
+
+pre { white-space: pre-wrap; word-wrap: break-word; }
