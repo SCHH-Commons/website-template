@@ -13,10 +13,9 @@ width: full
 
 Follow these steps to embed an image from **Google Photos** into your webpage or Markdown file:  
 
-{{ page.dir }}
 1. **Open Google Photos** in your web browser: [https://photos.google.com/](https://photos.google.com/)  
 2. **Select the photo** you want to embed. This will open it in full view.  
-3. Click the **Share** icon (![]({{ page.dir }}../static/images/share.svg)) in the top-right corner and select **"Create link."**  
+3. Click the **Share** icon (![]({{ site.baseurl }}/static/images/share.svg)) in the top-right corner and select **"Create link."**  
 4. Press the blue **"Create link"** button in the popup.  
 5. **Click on the generated link** (instead of using the "Copy" button).  
 6. The image will open in a new tab.  
