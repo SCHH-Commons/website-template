@@ -78,6 +78,12 @@
             </p>
           {%- endif %}
 
+          {%- if site.github.owner_name %}
+          <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository-name }}">
+            <img src="{{ site.baseurl }}/static/github.svg }}">
+          </a>
+          {%- endif %}
+
           <!--
           {%- if site.author %}
             <ul class="contact-list">
