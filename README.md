@@ -20,12 +20,13 @@ You now have your own copy of this template to customize!
 3. Update these important settings:
    - `title`: What you want to call your website
    - `description`: A brief description of your site (appears in the footer)
-   - `author`: Your name or organization
+   - `name`: Your name or organization
    - `email`: Your contact email
-4. When finished, scroll down and click `"Commit changes..."`
-5. Add a simple message like "Update site settings" and click `"Commit changes"`
+4. Update other settings as desired
+  - `max-width`: sets max width of site, change to `full` for full width or set a specific max size (in pixels)
+6. Add a simple message like "Update site settings" and click `"Commit changes"`
 
-The "About" and "Contact" pages are included by default. You can disable either by removing their entry under the `nav_pages` section in the configuration file.
+The "About" and "Contact" pages are included in the site navigation (located at the top of the page) by default. You can disable either by removing their entry under the `nav_pages` section in the configuration file.
 
 ### 3. Activate Your Website (GitHub Pages)
 
@@ -37,7 +38,7 @@ The "About" and "Contact" pages are included by default. You can disable either 
 Your website is now live! GitHub will display a message with your site's URL, which will look like:
 `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME`
 
-(It may take a few minutes for your site to appear online)
+Note that it may take a few minutes for your site to appear online as there is a build process that automatically occurs after activating the website for the first time and each time a commit (file addition, deletion or modification) is made to the repository.  The build generally takes about a minute.  The status of the build can be seen by clicking on the `Actions` link found at the top of the repository home page.
 
 ### 4. Edit Your Website Content
 
@@ -45,7 +46,7 @@ To edit the main pages of your site:
 
 - `index.md`: Your homepage content
 - `about.md`: Information about you or your site
-- `contact.md`: How visitors can reach you
+- `contact.md`: How site visitors can contact you
 
 To edit any file:
 1. Click on the file name in your repository
@@ -63,13 +64,13 @@ Tags help organize and categorize your blog posts. For each tag you want to use:
 ```yaml
 ---
 layout: tagpage
-title: Programming
-tag: programming
+title: Foo
+tag: foo
 robots: noindex
 ---
 ```
 
-Replace "Programming" and "programming" with your actual tag name.
+Replace "Foo" and "foo" with your actual tag name.
 
 ### 6. Writing Blog Posts
 
