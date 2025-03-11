@@ -1,3 +1,17 @@
+.footer-col {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.github-link {
+  margin-left: auto;
+}
+.github-link svg {
+  padding-left: 1em;
+  height: 1.4em;
+  width: 1.4em;
+}
+
 hr {
   clear: both;
 }
