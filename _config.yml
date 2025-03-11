@@ -1,6 +1,8 @@
 title: Website Title
+
 description: >
   Website Description
+
 author:
   name: Name
   email: your-email@domain.com
@@ -10,8 +12,10 @@ nav_pages:
   - contact.md
 
 max-width: 800px
+
 show_excerpts: true
 show_rss_feed: true
+show_github_link: true
 
 plugins:
   - jekyll-feed

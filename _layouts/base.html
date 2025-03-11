@@ -75,13 +75,14 @@
                   />
                 </svg><span>Subscribe</span>
               </a>
-            </p>
-          {%- endif %}
 
-          {%- if site.github.owner_name %}
-          <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository-name }}">
-            <img src="{{ site.baseurl }}/static/github.svg }}">
-          </a>
+              {%- if site.show_github_link %}
+              <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository-name }}">
+                <img src="{{ site.baseurl }}/static/images/github.svg }}">
+              </a>
+              {%- endif %}
+
+            </p>
           {%- endif %}
 
           <!--
