@@ -119,7 +119,6 @@
         let repo = window.jekyll.site.github.repository_name
         let branch = window.jekyll.site.github.source.branch
         window.ghbase = `${owner}/${repo}/${branch}`
-        console.log(window.ghbase)
       }      
       let ifcScript = document.createElement('script')
       ifcScript.src = `${location.port === '4001' ? 'http://localhost:3000': 'https://ifc.juncture-digital.org'}/js/index.js`
