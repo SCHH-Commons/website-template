@@ -1,3 +1,10 @@
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  /* margin: 1em; */
+}
+
 .footer-col {
   display: flex;
   align-items: center;
