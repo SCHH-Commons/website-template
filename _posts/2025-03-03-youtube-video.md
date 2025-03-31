@@ -14,4 +14,4 @@ allowfullscreen>
 </iframe>
 
 Learn Markdown in 60 Seconds
-`.caption`
+{: .caption}
