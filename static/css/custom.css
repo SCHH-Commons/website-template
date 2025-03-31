@@ -50,6 +50,11 @@ iframe[src*="google.com/maps"] {
   aspect-ratio: 1;
 }
 
+iframe[src*="audio"] {
+  box-shadow: none;
+  margin: unset;
+}
+
 .caption {
   font-weight: 600;
   text-align: center;

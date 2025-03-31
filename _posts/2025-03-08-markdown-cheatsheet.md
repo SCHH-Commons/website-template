@@ -2,7 +2,7 @@
 layout: post
 title: Markdown cheatsheet
 description: Example post using the some commonly used Markdown formatting.
-date: 2025-03-05
+date: 2025-03-08
 author: John Doe
 tags: markdown
 omit_header: false
